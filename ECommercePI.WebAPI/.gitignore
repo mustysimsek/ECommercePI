@@ -1,0 +1,49 @@
+## .NET build artifacts
+bin/
+obj/
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+
+## Rider generated logs
+.idea/
+*.iws
+*.sln.docstates
+
+## SQLite database
+*.db
+*.db-shm
+*.db-wal
+/data/
+app.db
+
+## Logs
+Logs/
+*.log
+*.txt
+
+## Docker
+*.pid
+.env
+docker-compose.override.yml
+
+## Test Results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+
+## Others
+.vscode/
+*.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp

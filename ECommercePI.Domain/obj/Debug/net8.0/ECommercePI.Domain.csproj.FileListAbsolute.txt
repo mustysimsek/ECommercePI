@@ -1,0 +1,11 @@
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/bin/Debug/net8.0/ECommercePI.Domain.deps.json
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/bin/Debug/net8.0/ECommercePI.Domain.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/bin/Debug/net8.0/ECommercePI.Domain.pdb
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.AssemblyInfoInputs.cache
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.AssemblyInfo.cs
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.csproj.CoreCompileInputs.cache
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/refint/ECommercePI.Domain.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ECommercePI.Domain.pdb
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Domain/obj/Debug/net8.0/ref/ECommercePI.Domain.dll

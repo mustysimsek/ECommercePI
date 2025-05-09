@@ -1,0 +1,6 @@
+{
+  "ECommercePI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/mustafasimsek\/RiderProjects\/ECommercePI\/ECommercePI.Application",
+  "ECommercePI.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/mustafasimsek\/RiderProjects\/ECommercePI\/ECommercePI.Domain",
+  "ECommercePI.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/mustafasimsek\/RiderProjects\/ECommercePI\/ECommercePI.Infrastructure",
+  "ECommercePI.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/mustafasimsek\/RiderProjects\/ECommercePI\/ECommercePI.WebAPI"
+}

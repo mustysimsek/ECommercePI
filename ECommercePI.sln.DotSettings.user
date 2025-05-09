@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AApiResponse_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Fa691f92f1527b0a4241191715338978bd77eede9f6d71a678dd64536da64f6_003FApiResponse_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AList_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Fe747192abb38e2df82cbdb37e721567726f559914a7b81f8b26ba537de632f4_003FList_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AServiceCollectionExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003F678038a896fd3f288f95e4fcac183bdf22053c861e1305e106ffdd994c48cb3_003FServiceCollectionExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AServiceProvider_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003F7d81b2d4f22bee75e5438c707251ae43cb0974c207db91ffc159118c84b4eb9_003FServiceProvider_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATestInvoker_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E1_003Fresharper_002Dhost_003FSourcesCache_003Fc3ec25c53b94f51fa21da479c513e551efee2b5ae49a79934686d2bb714d46_003FTestInvoker_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/mustafasimsek/Library/Caches/JetBrains/Rider2025.1/resharper-host/temp/Rider/vAny/CoverageData/_ECommercePI.2107443218/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=81915aeb_002D1192_002D4a1b_002D857c_002Dc4c07daba55a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/mustafasimsek/RiderProjects/ECommercePI" Presentation="&amp;lt;tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dfb1518a_002Db4b3_002D4b09_002D8cab_002Daf2d41185f65/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_ShouldReturnFailure_WhenOrderNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;CC905A93-9990-4BBB-AF74-B29B7C38AA27/d:Features/d:Orders/d:Commands/f:CompleteOrderCommandHandlerTests.cs&lt;/ProjectFile&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::BalanceServiceTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Orders.Commands.CreateOrderCommandHandlerTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Orders.Notifications.PaymentFailedNotificationHandlerTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Products.Queries.GetProductsQueryHandlerTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Orders.Commands.CompleteOrderCommandValidatorTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Orders.Commands.CreateOrderCommandValidatorTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Features.Orders.Notifications.PaymentFailedNotificationValidatorTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::C13B73D8-6E86-4E31-894B-BD6021E96691::net8.0::ECommercePI.Tests.Integration.Controllers.ProductsControllerTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::C13B73D8-6E86-4E31-894B-BD6021E96691::net8.0::ECommercePI.Tests.Integration.Controllers.OrdersControllerTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::C13B73D8-6E86-4E31-894B-BD6021E96691::net8.0::ECommercePI.Tests.Integration.Middlewares.ExceptionMiddlewareTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::CC905A93-9990-4BBB-AF74-B29B7C38AA27::net8.0::ECommercePI.Tests.Unit.Repositories.OrderRepositoryTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

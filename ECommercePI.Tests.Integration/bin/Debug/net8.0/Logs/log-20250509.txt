@@ -1,0 +1,321 @@
+[14:23:24 WRN] Failed to determine the https port for redirect. 
+[14:23:25 INF] Fetching product list from Balance API... 
+[14:23:58 WRN] Retry 1 for AsyncRetryPolicy`1-58085e45 due to InternalServerError. Next try in 2s. 
+[14:24:00 WRN] Retry 2 for AsyncRetryPolicy`1-58085e45 due to InternalServerError. Next try in 4s. 
+[14:24:04 INF] Retrieved 5 product(s) from Balance API 
+[14:24:16 WRN] Failed to determine the https port for redirect. 
+[14:24:16 INF] Fetching product list from Balance API... 
+[14:24:16 INF] Retrieved 5 product(s) from Balance API 
+[14:25:22 WRN] Failed to determine the https port for redirect. 
+[14:25:22 ERR] An unhandled exception has occurred while executing the request. 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items: At least one order item is required. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(List`1 items, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:25:23 INF] Creating order 77dd9bcb-8798-4ea7-874d-0bd97ba2717f with 1 item(s) 
+[14:25:25 INF] Reserving funds for OrderId 77dd9bcb-8798-4ea7-874d-0bd97ba2717f, TotalAmount: 19.99 
+[14:25:32 INF] Order 77dd9bcb-8798-4ea7-874d-0bd97ba2717f successfully created 
+[14:25:32 INF] Starting payment completion for OrderId: invalid-id 
+[14:25:33 WRN] Order with ID invalid-id not found. 
+[14:26:13 WRN] Failed to determine the https port for redirect. 
+[14:26:14 ERR] An unhandled exception has occurred while executing the request. 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items: At least one order item is required. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(List`1 items, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:35:02 WRN] Failed to determine the https port for redirect. 
+[14:35:03 INF] Starting payment completion for OrderId: invalid-id 
+[14:35:04 WRN] Order with ID invalid-id not found. 
+[14:35:15 WRN] Failed to determine the https port for redirect. 
+[14:35:15 INF] Starting payment completion for OrderId: invalid-id 
+[14:35:15 WRN] Order with ID invalid-id not found. 
+[14:35:26 WRN] Failed to determine the https port for redirect. 
+[14:35:27 INF] Starting payment completion for OrderId: invalid-id 
+[14:35:27 WRN] Order with ID invalid-id not found. 
+[14:35:27 WRN] Failed to determine the https port for redirect. 
+[14:35:27 INF] Fetching product list from Balance API... 
+[14:35:28 INF] Retrieved 5 product(s) from Balance API 
+[14:37:59 WRN] Failed to determine the https port for redirect. 
+[14:37:59 INF] Fetching product list from Balance API... 
+[14:37:59 WRN] Retry 1 for AsyncRetryPolicy`1-08b931c5 due to InternalServerError. Next try in 2s. 
+[14:38:04 INF] Retrieved 5 product(s) from Balance API 
+[14:38:05 WRN] Failed to determine the https port for redirect. 
+[14:38:05 INF] Starting payment completion for OrderId: invalid-id 
+[14:38:05 WRN] Order with ID invalid-id not found. 
+[15:32:39 WRN] Failed to determine the https port for redirect. 
+[15:32:39 INF] Fetching product list from Balance API... 
+[15:32:57 WRN] Retry 1 for AsyncRetryPolicy`1-1c297d7c due to InternalServerError. Next try in 2s. 
+[15:32:59 INF] Retrieved 5 product(s) from Balance API 
+[15:33:00 WRN] Failed to determine the https port for redirect. 
+[15:33:02 INF] Starting payment completion for OrderId: invalid-id 
+[15:33:02 WRN] Order with ID invalid-id not found. 
+[15:33:17 WRN] Failed to determine the https port for redirect. 
+[15:33:17 INF] Fetching product list from Balance API... 
+[15:33:17 WRN] Retry 1 for AsyncRetryPolicy`1-2335fb12 due to InternalServerError. Next try in 2s. 
+[15:33:19 WRN] Retry 2 for AsyncRetryPolicy`1-2335fb12 due to InternalServerError. Next try in 4s. 
+[15:33:24 INF] Retrieved 5 product(s) from Balance API 
+[15:33:24 WRN] Failed to determine the https port for redirect. 
+[15:33:24 INF] Starting payment completion for OrderId: invalid-id 
+[15:33:24 WRN] Order with ID invalid-id not found. 
+[17:08:31 WRN] Failed to determine the https port for redirect. 
+[17:08:46 WRN] Failed to determine the https port for redirect. 
+[17:11:50 WRN] Failed to determine the https port for redirect. 
+[17:11:50 ERR] Unhandled exception 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items[0].Quantity: Quantity must be greater than 0. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(CreateOrderCommand command, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommercePI.WebAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Middlewares/ExceptionMiddleware.cs:line 18
+[17:11:50 INF] Creating order aa4c3ef1-9de8-46c9-8386-d81f587051fc with 1 item(s) 
+[17:12:13 INF] Reserving funds for OrderId aa4c3ef1-9de8-46c9-8386-d81f587051fc, TotalAmount: 19.99 
+[17:12:13 WRN] Retry 1 for AsyncRetryPolicy`1-89bbbfa8 due to InternalServerError. Next try in 2s. 
+[17:12:15 WRN] Retry 2 for AsyncRetryPolicy`1-89bbbfa8 due to InternalServerError. Next try in 4s. 
+[17:12:19 WRN] Retry 3 for AsyncRetryPolicy`1-89bbbfa8 due to InternalServerError. Next try in 8s. 
+[17:12:27 INF] Order aa4c3ef1-9de8-46c9-8386-d81f587051fc successfully created 
+[17:12:28 INF] Creating order 642bf2d6-cefc-40cf-a1e1-fa1acc4e907e with 1 item(s) 
+[17:12:28 INF] Reserving funds for OrderId 642bf2d6-cefc-40cf-a1e1-fa1acc4e907e, TotalAmount: 19.99 
+[17:12:28 INF] Order 642bf2d6-cefc-40cf-a1e1-fa1acc4e907e successfully created 
+[17:12:28 INF] Starting payment completion for OrderId: invalid-id 
+[17:12:28 WRN] Order with ID invalid-id not found. 
+[17:12:58 WRN] Failed to determine the https port for redirect. 
+[17:12:59 ERR] Unhandled exception 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items[0].Quantity: Quantity must be greater than 0. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(CreateOrderCommand command, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommercePI.WebAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Middlewares/ExceptionMiddleware.cs:line 18
+[17:12:59 INF] Creating order 0e9d02a3-d383-4ebf-82e5-9fe0d2321ec6 with 1 item(s) 
+[17:12:59 WRN] Retry 1 for AsyncRetryPolicy`1-420509b0 due to InternalServerError. Next try in 2s. 
+[17:13:01 INF] Reserving funds for OrderId 0e9d02a3-d383-4ebf-82e5-9fe0d2321ec6, TotalAmount: 19.99 
+[17:13:01 WRN] Retry 1 for AsyncRetryPolicy`1-8990cee9 due to InternalServerError. Next try in 2s. 
+[17:13:04 INF] Order 0e9d02a3-d383-4ebf-82e5-9fe0d2321ec6 successfully created 
+[17:13:04 INF] Creating order b7863786-2b59-453b-a51f-d5d09f13cfe7 with 1 item(s) 
+[17:13:04 INF] Reserving funds for OrderId b7863786-2b59-453b-a51f-d5d09f13cfe7, TotalAmount: 19.99 
+[17:13:04 WRN] Retry 1 for AsyncRetryPolicy`1-c84a3510 due to InternalServerError. Next try in 2s. 
+[17:13:06 INF] Order b7863786-2b59-453b-a51f-d5d09f13cfe7 successfully created 
+[17:13:06 INF] Starting payment completion for OrderId: invalid-id 
+[17:13:06 WRN] Order with ID invalid-id not found. 
+[17:13:33 WRN] Failed to determine the https port for redirect. 
+[17:13:33 INF] Starting payment completion for OrderId: invalid-id 
+[17:13:33 WRN] Order with ID invalid-id not found. 
+[17:13:55 WRN] Failed to determine the https port for redirect. 
+[17:14:07 WRN] Failed to determine the https port for redirect. 
+[17:14:07 INF] Starting payment completion for OrderId: invalid-id 
+[17:14:07 WRN] Order with ID invalid-id not found. 
+[17:15:56 WRN] Failed to determine the https port for redirect. 
+[17:15:56 ERR] Unhandled exception 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items[0].ProductId: ProductId is required. Severity: Error
+ -- Items[0].ProductId: ProductId cannot be empty or whitespace. Severity: Error
+ -- Items[0].Quantity: Quantity must be greater than 0. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(CreateOrderCommand command, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommercePI.WebAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Middlewares/ExceptionMiddleware.cs:line 18
+[17:16:21 WRN] Failed to determine the https port for redirect. 
+[17:16:21 ERR] Unhandled exception 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items[0].ProductId: ProductId is required. Severity: Error
+ -- Items[0].ProductId: ProductId cannot be empty or whitespace. Severity: Error
+ -- Items[0].Quantity: Quantity must be greater than 0. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(CreateOrderCommand command, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommercePI.WebAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Middlewares/ExceptionMiddleware.cs:line 18
+[17:16:51 WRN] Failed to determine the https port for redirect. 
+[17:16:52 ERR] Unhandled exception 
+FluentValidation.ValidationException: Validation failed: 
+ -- Items[0].ProductId: ProductId is required. Severity: Error
+ -- Items[0].ProductId: ProductId cannot be empty or whitespace. Severity: Error
+ -- Items[0].Quantity: Quantity must be greater than 0. Severity: Error
+   at ECommercePI.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/Behaviors/ValidationBehavior.cs:line 35
+   at ECommercePI.WebAPI.Controllers.OrdersController.CreateOrder(CreateOrderCommand command, CancellationToken cancellationToken) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Controllers/OrdersController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ECommercePI.WebAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.WebAPI/Middlewares/ExceptionMiddleware.cs:line 18
+[17:16:52 INF] Starting payment completion for OrderId: invalid-id 
+[17:16:52 WRN] Order with ID invalid-id not found. 
+[17:23:47 WRN] Failed to determine the https port for redirect. 
+[17:24:59 WRN] Failed to determine the https port for redirect. 
+[17:25:01 INF] Creating order ff42e1e6-13ff-4916-8bfa-05f5d14528a4 with 1 item(s) 
+[17:25:02 INF] Reserving funds for OrderId ff42e1e6-13ff-4916-8bfa-05f5d14528a4, TotalAmount: 19.99 
+[17:25:02 WRN] Retry 1 for AsyncRetryPolicy`1-283c4e54 due to InternalServerError. Next try in 2s. 
+[17:25:04 INF] Order ff42e1e6-13ff-4916-8bfa-05f5d14528a4 successfully created 
+[17:25:05 INF] Creating order 48ee2f7e-727d-4884-b124-e65548522033 with 1 item(s) 
+[17:25:05 INF] Reserving funds for OrderId 48ee2f7e-727d-4884-b124-e65548522033, TotalAmount: 19.99 
+[17:25:05 WRN] Retry 1 for AsyncRetryPolicy`1-e683e220 due to InternalServerError. Next try in 2s. 
+[17:25:07 WRN] Retry 2 for AsyncRetryPolicy`1-e683e220 due to InternalServerError. Next try in 4s. 
+[17:25:11 WRN] Retry 3 for AsyncRetryPolicy`1-e683e220 due to InternalServerError. Next try in 8s. 
+[17:25:19 WRN] API Call Failed | Operation: ReserveFunds | Ref: 48ee2f7e-727d-4884-b124-e65548522033 | Message: Failed to process pre-order 
+[17:25:19 ERR] Failed to reserve funds for OrderId 48ee2f7e-727d-4884-b124-e65548522033: Failed to process pre-order 
+[17:25:20 INF] Starting payment completion for OrderId: invalid-id 
+[17:25:21 WRN] Order with ID invalid-id not found. 
+[17:25:36 WRN] Failed to determine the https port for redirect. 
+[17:25:37 INF] Creating order 488871a1-3894-43f5-9f6b-cf80a9071526 with 1 item(s) 
+[17:25:37 INF] Reserving funds for OrderId 488871a1-3894-43f5-9f6b-cf80a9071526, TotalAmount: 19.99 
+[17:25:37 INF] Order 488871a1-3894-43f5-9f6b-cf80a9071526 successfully created 
+[17:25:37 INF] Creating order 7cb7ab86-2e42-410f-a09d-6e55125460cd with 1 item(s) 
+[17:25:37 INF] Reserving funds for OrderId 7cb7ab86-2e42-410f-a09d-6e55125460cd, TotalAmount: 19.99 
+[17:25:38 INF] Order 7cb7ab86-2e42-410f-a09d-6e55125460cd successfully created 
+[17:25:38 INF] Starting payment completion for OrderId: invalid-id 
+[17:25:38 WRN] Order with ID invalid-id not found. 
+[17:26:18 WRN] Failed to determine the https port for redirect. 
+[17:26:19 INF] Starting payment completion for OrderId: invalid-id 
+[17:26:19 WRN] Order with ID invalid-id not found. 
+[17:32:50 WRN] Failed to determine the https port for redirect. 
+[17:32:50 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:32:52 INF] Starting payment completion for OrderId: invalid-id 
+[17:32:52 WRN] Order with ID invalid-id not found. 
+[17:33:14 WRN] Failed to determine the https port for redirect. 
+[17:33:14 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:33:31 WRN] Failed to determine the https port for redirect. 
+[17:33:31 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:33:33 INF] Starting payment completion for OrderId: invalid-id 
+[17:33:33 WRN] Order with ID invalid-id not found. 
+[17:33:41 WRN] Failed to determine the https port for redirect. 
+[17:33:41 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:33:41 INF] Starting payment completion for OrderId: invalid-id 
+[17:33:41 WRN] Order with ID invalid-id not found. 
+[17:36:24 WRN] Failed to determine the https port for redirect. 
+[17:36:24 WRN] Failed to determine the https port for redirect. 
+[17:36:24 INF] Fetching product list from Balance API... 
+[17:36:24 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:36:24 INF] Starting payment completion for OrderId: invalid-id 
+[17:36:24 WRN] Retry 1 for AsyncRetryPolicy`1-46fecb9b due to InternalServerError. Next try in 2s. 
+[17:36:24 WRN] Order with ID invalid-id not found. 
+[17:36:26 INF] Retrieved 5 product(s) from Balance API 
+[17:36:41 WRN] Failed to determine the https port for redirect. 
+[17:36:41 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:36:41 INF] Starting payment completion for OrderId: invalid-id 
+[17:36:42 WRN] Order with ID invalid-id not found. 
+[17:36:42 WRN] Failed to determine the https port for redirect. 
+[17:36:42 INF] Fetching product list from Balance API... 
+[17:36:42 WRN] Retry 1 for AsyncRetryPolicy`1-7c087ceb due to InternalServerError. Next try in 2s. 
+[17:36:45 INF] Retrieved 5 product(s) from Balance API 
+[17:45:33 WRN] Failed to determine the https port for redirect. 
+[17:45:33 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[17:45:33 INF] Starting payment completion for OrderId: invalid-id 
+[17:45:34 WRN] Order with ID invalid-id not found. 
+[17:45:34 WRN] Failed to determine the https port for redirect. 
+[17:45:34 INF] Fetching product list from Balance API... 
+[17:45:34 WRN] Retry 1 for AsyncRetryPolicy`1-2adca4b2 due to InternalServerError. Next try in 2s. 
+[17:45:36 INF] Retrieved 5 product(s) from Balance API 
+[20:26:46 WRN] Failed to determine the https port for redirect. 
+[20:26:46 INF] Fetching product list from Balance API... 
+[20:26:46 WRN] Retry 1 for AsyncRetryPolicy`1-e66eee11 due to InternalServerError. Next try in 2s. 
+[20:26:47 WRN] Failed to determine the https port for redirect. 
+[20:26:47 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[20:26:47 INF] Starting payment completion for OrderId: invalid-id 
+[20:26:47 WRN] Order with ID invalid-id not found. 
+[20:26:49 INF] Retrieved 5 product(s) from Balance API 
+[20:28:24 WRN] Failed to determine the https port for redirect. 
+[20:28:24 WRN] Failed to determine the https port for redirect. 
+[20:28:24 INF] Fetching product list from Balance API... 
+[20:28:24 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[20:28:24 INF] Starting payment completion for OrderId: invalid-id 
+[20:28:24 WRN] Retry 1 for AsyncRetryPolicy`1-52b4b9dc due to InternalServerError. Next try in 2s. 
+[20:28:24 WRN] Order with ID invalid-id not found. 
+[20:28:26 WRN] Retry 2 for AsyncRetryPolicy`1-52b4b9dc due to InternalServerError. Next try in 4s. 
+[20:28:31 INF] Retrieved 5 product(s) from Balance API 
+[20:31:21 WRN] Failed to determine the https port for redirect. 
+[20:31:21 WRN] Failed to determine the https port for redirect. 
+[20:31:21 INF] Fetching product list from Balance API... 
+[20:31:22 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[20:31:22 INF] Starting payment completion for OrderId: invalid-id 
+[20:31:22 WRN] Retry 1 for AsyncRetryPolicy`1-04c53a09 due to InternalServerError. Next try in 2s. 
+[20:31:22 WRN] Order with ID invalid-id not found. 
+[20:31:24 INF] Retrieved 5 product(s) from Balance API 
+[20:31:36 WRN] Failed to determine the https port for redirect. 
+[20:31:36 WRN] Validation failed: [{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId is required.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"NotEmptyValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].ProductId","ErrorMessage":"ProductId cannot be empty or whitespace.","AttemptedValue":"","CustomState":null,"Severity":"Error","ErrorCode":"PredicateValidator","FormattedMessagePlaceholderValues":{"PropertyName":"Product Id","PropertyValue":"","PropertyPath":"Items[0].ProductId","CollectionIndex":0},"$type":"ValidationFailure"},{"PropertyName":"Items[0].Quantity","ErrorMessage":"Quantity must be greater than 0.","AttemptedValue":0,"CustomState":null,"Severity":"Error","ErrorCode":"GreaterThanValidator","FormattedMessagePlaceholderValues":{"ComparisonValue":0,"ComparisonProperty":"","PropertyName":"Quantity","PropertyValue":0,"PropertyPath":"Items[0].Quantity","CollectionIndex":0},"$type":"ValidationFailure"}] 
+[20:31:36 INF] Starting payment completion for OrderId: invalid-id 
+[20:31:36 WRN] Order with ID invalid-id not found. 
+[20:31:36 WRN] Failed to determine the https port for redirect. 
+[20:31:36 INF] Fetching product list from Balance API... 
+[20:31:37 WRN] Retry 1 for AsyncRetryPolicy`1-70dddaf5 due to InternalServerError. Next try in 2s. 
+[20:31:39 INF] Retrieved 5 product(s) from Balance API 

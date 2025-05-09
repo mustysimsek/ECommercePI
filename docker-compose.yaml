@@ -1,0 +1,18 @@
+﻿services:
+  webapi:
+    image: ecommercepi-webapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    volumes:
+      - ./data/app.db:/app/app.db       # SQLite dosyası dışa aktarılır (app.db burada tutulur)
+      - ./Logs:/app/Logs                # Serilog logları dışa aktarılır
+
+# Named volume kaldırıldı çünkü bind mount kullanılıyor
+# volumes:
+#   sqlite-data:

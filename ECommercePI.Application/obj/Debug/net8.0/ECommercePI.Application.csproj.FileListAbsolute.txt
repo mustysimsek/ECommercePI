@@ -1,0 +1,15 @@
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/bin/Debug/net8.0/ECommercePI.Application.deps.json
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/bin/Debug/net8.0/ECommercePI.Application.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/bin/Debug/net8.0/ECommercePI.Application.pdb
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/bin/Debug/net8.0/ECommercePI.Domain.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/bin/Debug/net8.0/ECommercePI.Domain.pdb
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.csproj.AssemblyReference.cache
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.AssemblyInfoInputs.cache
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.AssemblyInfo.cs
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.csproj.CoreCompileInputs.cache
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommerc.041A6EC8.Up2Date
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/refint/ECommercePI.Application.dll
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ECommercePI.Application.pdb
+/Users/mustafasimsek/RiderProjects/ECommercePI/ECommercePI.Application/obj/Debug/net8.0/ref/ECommercePI.Application.dll
