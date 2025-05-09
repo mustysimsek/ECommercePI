@@ -7,8 +7,6 @@
 
 - Siparişi tamamlama ve ödeme alma
 
-Swagger UI
-
 🚀 Özellikler
 - ✅ Ürün listeleme (GET /api/products)
 - ✅ Sipariş oluşturma (POST /api/orders/create)
