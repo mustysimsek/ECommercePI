@@ -66,6 +66,27 @@ _Uygulamayı aç:_ http://localhost/swagger
 * Logs/log-*.txt → Uygulama log dosyaları
 * data/app.db → SQLite veritabanı
 
+---
+
+## 🧪 Test Coverage
+
+- Tüm unit ve integration testleri için:
+
+```bash
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+```
+
+- Coverage raporları `TestResults/` altına üretilir.
+- Daha okunabilir HTML raporu için:
+
+```bash
+reportgenerator -reports:**/coverage.cobertura.xml -targetdir:./TestResults/CoverageReport
+```
+
+- 📂 `TestResults/CoverageReport/index.html` → Tarayıcıdan görüntüleyebilirsiniz.
+
+---
+
 ## 🛠️ Geliştirici Notları
 
 * Refit + Polly ile zaman aşımı ve retry logic uygulanmıştır.
@@ -83,4 +104,4 @@ _Uygulamayı aç:_ http://localhost/swagger
 | [JetBrains Rider](https://www.jetbrains.com/rider/)     | **2023.3+** önerilir                              |
 | İşletim Sistemi                                         | macOS Sequoia 15.4.1 veya Windows 10+         |
 
-💡 Geliştirme ortamı olarak JetBrains Rider kullanılmıştır. Proje yapılandırmaları, test çalıştırmaları ve Docker entegrasyonu Rider IDE’si ile sorunsuz çalışmaktadır.
+💡 Geliştirme ortamı olarak JetBrains Rider kullanılmıştır. Proje yapılandırmaları, test çalıştırmaları ve Docker entegrasyonu Rider IDE’si ile sorunsuz çalışmaktadır. Test Coverage sekmesinde katman ve test coverage ları görünmektedir.
