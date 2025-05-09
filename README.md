@@ -7,9 +7,6 @@
 
 - Siparişi tamamlama ve ödeme alma
 
-🔗 Canlı Balance API
-API Base URL
-
 Swagger UI
 
 🚀 Özellikler
